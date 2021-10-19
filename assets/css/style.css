@@ -1901,7 +1901,7 @@ h1.big-name
    text-transform: uppercase;
    font-size: 20px;       
   font-weight: 900;
-  color: #383866;
+  color: #143059;
   font-family: 'Roboto-Black', sans-serif;
   padding: 10px 25px;
   height: 70px;
@@ -1909,7 +1909,7 @@ h1.big-name
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a, .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a
 {
-    color: #383866;
+    color: #143059;
     background-color: #ffe6a1 
 }
 
@@ -1927,21 +1927,27 @@ h1.big-name
 }
 
 .navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul {
-   margin-top: 100px !important;
+   margin-top: 90px !important;
    margin-left: 80%;       
    width: 260px;
 }
 
 .navbar .dropdown.project-menu ul {
-   margin-top: 74px !important;
+   margin-top: 65px !important;
    margin-left: 77%;
    width: 260px;
 }
 
 .navbar .dropdown ul 
 {
-  /*opacity: 1 !important; /*hide after tweak*/*/
-   /*visibility: visible !important; /*hide after tweak*/*/
+    background-image: url(../brushed-gold-bg.jpg);
+    /*background-image: url(../brushed-gold-bg-1.jpg);*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px !important;
+    /*opacity: 1 !important;*/ /*hide after tweak*/
+    /*visibility: visible !important;*/ /*hide after tweak*/
+
 }
 
 .navbar .dropdown:hover > ul {    
