@@ -1811,6 +1811,11 @@ section {
   src: url(../font/Roboto-Regular.ttf);      
 }
 
+@font-face {
+  font-family: Taviraj-Regular  ;
+  src: url(../font/Taviraj-Regular.ttf);      
+}
+
 
 .top-header
 {
@@ -1967,9 +1972,11 @@ h1.big-name
 footer, .footer-top
 {
   background: transparent !important;
-  color: yellow;
-  font-family:  sans-serif;
-  padding: 15px 0px !important;
+  color: #eecb66;
+  font-family: 'Taviraj-Regular';
+  padding: 30px 0px !important;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1366px) {
@@ -2019,5 +2026,27 @@ footer, .footer-top
 
   .navbar .dropdown:hover > ul {
       top: 170%;
+  }  
+}
+
+.icon-bg-gold{
+    font-size: 28px;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D 100%, #DF9F28) !important;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 4px;
+}
+
+.icon-bg-gold.phone{
+  /*margin-left: -15px;*/
   }
+
+.phone-icon:before, .mail-icon:before{
+    font-size: 23px;
+    vertical-align: 0;
 }
