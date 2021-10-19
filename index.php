@@ -36,8 +36,8 @@
         <h1 class="big-name text-end">JDJ</h1>
       </div>
       <div class="col-md-8">
-        <h1 class="mb-0">TECHNOLOGY (M) SDN. BHD. <small>(1359495-U)</small></h1>
-        <h1 class="pt-0 second-name">METAL TRADING. <small>(002687917-T)</small></h1>
+        <h1 class="mb-0">TECHNOLOGY (M) SDN. BHD. <small class="subtitle">(1359495-U)</small></h1>
+        <h1 class="pt-0 second-name">METAL TRADING. <small class="subtitle">(002687917-T)</small></h1>
         <hr class="float-end name-underline">
       </div>
     </div>
@@ -53,8 +53,8 @@
       <nav id="navbar" class="navbar">
 
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li class="dropdown about-menu"><a href="#"><span>About Us</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li><a href="index.php?module=home" class="active">Home</a></li>
+          <li class="dropdown about-menu"><a href="javascript:void(0)"><span>About Us</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
               <ul>
                 <li><a href="about.html">Vision & Mission</a></li>
                 <li><a href="team.html">Corporate Details</a></li>
@@ -144,7 +144,17 @@
   </section><!-- End Hero -->
 
   <main id="main">
+    <?php 
 
+      /*get content*/
+      if(empty($module)){
+        echo file_get_contents("home.php");
+      }
+      else
+      {
+        echo file_get_contents($module.".php"); 
+      }
+    ?>
     
 
   </main><!-- End #main -->
@@ -156,7 +166,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-4 ">
+          <div class="col-lg-4 col-md-4 pl-4">
 
             <div class="float-end">
               <div class="icon-bg-gold"><i class="bi bi-at"></i></div>
@@ -164,14 +174,14 @@
             </div>
             
           </div>
-          <div class="col-lg-5 col-md-4 ">
+          <div class="col-lg-5 col-md-5 ">
             <div style="margin: auto; width: 60%;">
               <div class="icon-bg-gold"><i class="bi bi-phone phone-icon"></i></div>
               <p class="mb-0">+60 13-721 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 11-1290 1176</p>
               <p class="mb-0">+60 18-973 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 10-268 1176</p>  
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">            
+          <div class="col-lg-3 col-md-3">            
             <div class="icon-bg-gold"><i class="bi bi-envelope mail-icon"></i></div>
             <p class="mb-0">jdjtechnology20@gmail.com</p>
             <p class="mb-0">thila716@gmail.com</p>

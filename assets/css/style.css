@@ -111,11 +111,11 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  /*padding: 10px 0 10px 30px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
-  color: #556270;
+  color: #556270;*/
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -1802,20 +1802,67 @@ section {
 }    
 
 @font-face {
-  font-family: Roboto-Black;
-  src: url(../font/Roboto-Black.ttf);      
+  font-family: Roboto;
+  src: url(../font/Roboto-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(../font/Roboto-Regular.ttf);      
+  src: url(../font/Roboto-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: Taviraj-Regular  ;
-  src: url(../font/Taviraj-Regular.ttf);      
+  font-family: Roboto;
+  src: url(../font/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;      
 }
 
+@font-face {
+  font-family: Taviraj  ;
+  src: url(../font/Taviraj-Regular.ttf)  format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Taviraj;
+  src: url(../font/Taviraj-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
 
 .top-header
 {
@@ -1828,7 +1875,7 @@ section {
 
 body
 {
-  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Taviraj';
   background-image: linear-gradient(to bottom right, black, #1c4480 40%, black);
 }
 
@@ -1844,7 +1891,7 @@ body
   -webkit-text-fill-color: transparent;
 }    
 
-small
+small.subtitle
 {
   font-size: 30px !important;
 }
@@ -1895,16 +1942,18 @@ h1.big-name
 }
 
 .navbar li{
-  margin-left: -1px
+  /*margin-left: -1px*/
 }
 
 .navbar a
 {
    text-transform: uppercase;
-   font-size: 20px;       
-  font-weight: 900;
+   font-size: 20px;   
   color: #143059;
-  font-family: 'Roboto-Black', sans-serif;
+  font-family: 'Roboto';
+  font-weight: 900;
+  /*font-family: 'Taviraj', sans-serif;
+  font-weight: bold;*/
   padding: 10px 25px;
   height: 70px;
 }
@@ -1964,6 +2013,7 @@ h1.big-name
 .navbar .dropdown ul a {
   text-transform: uppercase !important;
   height: 50px;
+  font-weight: 700;
 }
 
 #hero {
@@ -1987,13 +2037,36 @@ footer{
 {
   background-color: rgba(0,0,0,0.3) !important;
   color: #FDE08D;
-  font-family: 'Taviraj-Regular';
+  font-family: 'Taviraj';
   padding: 40px 0px !important;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.005em;
 }
 
+.icon-bg-gold{
+    font-size: 28px;
+    color: #fff;
+    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D 100%, #DF9F28) !important;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 4px;
+}
+
+.icon-bg-gold.phone{
+  /*margin-left: -15px;*/
+  }
+
+.phone-icon:before, .mail-icon:before{
+    font-size: 23px;
+    vertical-align: 0;
+}
+
+/*start 1366*/
 @media (max-width: 1366px) {
   .top-header h1{
     font-size: 40px;
@@ -2042,26 +2115,16 @@ footer{
   .navbar .dropdown:hover > ul {
       top: 170%;
   }  
-}
 
-.icon-bg-gold{
-    font-size: 28px;
-    color: #fff;
-    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D 100%, #DF9F28) !important;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    position: absolute;
-    margin-left: -50px;
-    margin-top: 4px;
-}
-
-.icon-bg-gold.phone{
-  /*margin-left: -15px;*/
+  .footer-top
+  {
+    font-size: 15px;
   }
 
-.phone-icon:before, .mail-icon:before{
-    font-size: 23px;
-    vertical-align: 0;
+  small.subtitle {
+      font-size: 20px !important;
+  }
 }
+
+/*end 1366*/
+
