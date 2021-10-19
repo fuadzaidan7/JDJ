@@ -1871,8 +1871,9 @@ small
 h1.big-name
 {
   font-size: 165px;
-  margin-right: -32%;
+  margin-right: -34%;
   margin-top: -3%;
+  padding-right: 0.08em;
 }
 
 .bg-gold
