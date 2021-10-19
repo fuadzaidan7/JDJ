@@ -36,7 +36,7 @@
         <h1 class="big-name text-end">JDJ</h1>
       </div>
       <div class="col-md-8">
-        <h1 class="mb-0">TECHNOLOGY (M) SDN. BHD. <small class="subtitle">(1359495-U)</small></h1>
+        <h1 class="mb-0">xTECHNOLOGY (M) SDN. BHD. <small class="subtitle">(1359495-U)</small></h1>
         <h1 class="pt-0 second-name">METAL TRADING. <small class="subtitle">(002687917-T)</small></h1>
         <hr class="float-end name-underline">
       </div>
