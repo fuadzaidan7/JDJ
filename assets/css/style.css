@@ -1822,7 +1822,8 @@ section {
   width: 100%; 
   height: 195px;
   /*background-image: linear-gradient(to bottom right, black 20%, blue);*/
-  background: transparent;
+  /*background: transparent;*/
+  background-color: rgba(0,0,0,0.3);
 }
 
 body
@@ -1976,12 +1977,18 @@ h1.big-name
   margin-left: -37%;
 }
 
-footer, .footer-top
+footer{
+
+  background-color: transparent !important;
+  padding: 0px !important
+}
+
+ .footer-top
 {
-  background: transparent !important;
+  background-color: rgba(0,0,0,0.3) !important;
   color: #eecb66;
   font-family: 'Taviraj-Regular';
-  padding: 30px 0px !important;
+  padding: 40px 0px !important;
   font-size: 18px;
   text-transform: uppercase;
 }
