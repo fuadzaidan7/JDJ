@@ -56,32 +56,32 @@
           <li><a href="index.php?module=home" class="active">Home</a></li>
           <li class="dropdown about-menu"><a href="javascript:void(0)"><span>About Us</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
               <ul>
-                <li><a href="about.html">Vision & Mission</a></li>
-                <li><a href="team.html">Corporate Details</a></li>
-                <li><a href="testimonials.html">MD Message</a></li>
-                <li><a href="testimonials.html">Organizational Chart</a></li>
-                <li><a href="testimonials.html">SSM Certificate</a></li>
+                <li><a href="index.php?module=vision">Vision & Mission</a></li>
+                <li><a href="index.php?module=corporate">Corporate Details</a></li>
+                <li><a href="index.php?module=md_message">MD Message</a></li>
+                <li><a href="index.php?module=orgchart">Organizational Chart</a></li>
+                <li><a href="index.php?module=ssm">SSM Certificate</a></li>
               </ul>
           </li>
           <li class="dropdown service-menu"><a href="#"><span>Services</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
-                <li><a href="about.html">List of Services</a></li>
-                <li><a href="team.html">Type of Collected Material</a></li>
-                <li><a href="testimonials.html">Safety</a></li>
-                <li><a href="testimonials.html">Safety Equipments</a></li>
-                <li><a href="testimonials.html">List of Equipments</a></li>
+                <li><a href="index.php?module=service">List of Services</a></li>
+                <li><a href="index.php?module=service">Type of Collected Material</a></li>
+                <li><a href="index.php?module=service">Safety</a></li>
+                <li><a href="index.php?module=service">Safety Equipments</a></li>
+                <li><a href="index.php?module=service">List of Equipments</a></li>
               </ul>
           </li>
-          <li><a href="contact.html">Deconstruction & Dismantling</a></li>  
+          <li><a href="index.php?module=deconstruction">Deconstruction & Dismantling</a></li>  
           <li class="dropdown project-menu"><a href="#"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
-                <li><a href="about.html">SASASHIP PTE LTD</a></li>
-                <li><a href="team.html">United Plantations BHD</a></li>
-                <li><a href="testimonials.html">Guocera Tiles (M) SDN. BHD.</a></li>
-                <li><a href="testimonials.html">Petrogas</a></li>
+                <li><a href="index.php?module=project">SASASHIP PTE LTD</a></li>
+                <li><a href="index.php?module=project">United Plantations BHD</a></li>
+                <li><a href="index.php?module=project">Guocera Tiles (M) SDN. BHD.</a></li>
+                <li><a href="index.php?module=project">Petrogas</a></li>
               </ul>
           </li>
-          <li><a href="contact.html">Contact Us</a></li>          
+          <li><a href="index.php?module=contact">Contact Us</a></li>          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
