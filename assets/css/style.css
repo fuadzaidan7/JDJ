@@ -8,11 +8,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@font-face {
+/*@font-face {
   font-family: 'MyCambria';
   font-weight: bold;
-  src: url('assets/font/cambriab.ttf')  format('truetype');
-}
+  src: url('assets/font/cambriab.ttf') format('truetype');
+}*/
 
 body {
   font-family: "MyCambria";
@@ -1896,6 +1896,7 @@ body
 {
   font-family: 'Taviraj';
   background-image: linear-gradient(to bottom right, black, #1c4480 40%, black);
+  font-size: 18px;
 }
 
 .top-header h1
@@ -1919,7 +1920,7 @@ small.subtitle
   margin-top: -5px;
 }
 
-.name-underline, .footerline
+.name-underline, .footerline, .title-underline, .gold-line
 {
   background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28) !important;
   width: 90%;
@@ -1933,6 +1934,22 @@ small.subtitle
   width: 97%;
   margin-bottom: 0px;
   margin: auto;
+}
+
+.title-underline
+{
+  width: 100%;
+  margin-bottom: 0px;
+  margin: auto;
+}
+
+.gold-line
+{  
+  margin: 0px auto 30px auto;
+}
+
+#summary{
+  padding-top: 20px
 }
 
 h1.big-name
@@ -2147,3 +2164,12 @@ footer{
 
 /*end 1366*/
 
+.text-justify{
+  text-align: justify;
+}
+
+.summary-image{
+  margin: auto;
+  max-width: 85%;
+  display:block;
+}
