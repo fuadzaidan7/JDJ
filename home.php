@@ -59,7 +59,7 @@
         <div class="row content">
         
           <div class="col-lg-8 ">  
-            <div class="section-title pb-4">         
+            <div class="section-title pb-3">         
               <p>Executive Summary</p>        
             </div>      
             <p class="text-justify">
