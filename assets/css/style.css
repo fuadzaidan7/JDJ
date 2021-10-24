@@ -1,18 +1,12 @@
-/**
-* Template Name: Sailor - v4.6.0
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-/*@font-face {
+@font-face {
   font-family: 'MyCambria';
   font-weight: bold;
   src: url('assets/font/cambriab.ttf') format('truetype');
-}*/
+}
 
 body {
   font-family: "MyCambria";
@@ -47,10 +41,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #d9232d;
+  background: -webkit-linear-gradient(left, #8f6B29, #FDE08D 100%, #DF9F28) !important;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
+  border-radius: 20px;
   transition: all 0.4s;
 }
 .back-to-top i {
@@ -573,7 +567,7 @@ section {
   top: 7px;
   position: absolute;
   font-size: 20px;
-  color: #d9232d;
+  color: #FFF000;/*#d9232d;*/
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -2013,16 +2007,22 @@ h1.big-name
   text-align: center;
 }
 
-.navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul {
+.navbar .dropdown.about-menu ul{
    margin-top: 90px !important;
-   margin-left: 80%;       
-   width: 260px;
+   margin-left: 78%;       
+   /*width: 260px;*/
+}
+
+.navbar .dropdown.service-menu ul {
+   margin-top: 90px !important;
+   margin-left: 98%;       
+   /*width: 260px;*/
 }
 
 .navbar .dropdown.project-menu ul {
    margin-top: 65px !important;
-   margin-left: 77%;
-   width: 260px;
+   margin-left: 89%;
+   /*width: 260px;*/
 }
 
 .navbar .dropdown ul 
@@ -2030,9 +2030,9 @@ h1.big-name
     background-image: url(../brushed-gold-bg.jpg);
     /*background-image: url(../brushed-gold-bg-1.jpg);*/
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 101%;
     padding: 0px !important;
-    /*opacity: 1 !important;*/ /*hide after tweak*/
+   /* opacity: 1 !important;*/ /*hide after tweak*/
     /*visibility: visible !important;*/ /*hide after tweak*/
 
 }
@@ -2049,7 +2049,9 @@ h1.big-name
 .navbar .dropdown ul a {
   text-transform: uppercase !important;
   height: 50px;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Roboto';
 }
 
 #hero {
@@ -2172,4 +2174,41 @@ footer{
   margin: auto;
   max-width: 85%;
   display:block;
+}
+
+table
+{
+  color: #FFFFFF !important;
+}
+
+table.table-corporate{
+  width: 90%
+}
+
+table td.td-item
+{
+  width: 20% !important;
+}
+
+.chart-logo
+{
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.chart-company
+{
+  line-height: 100%;
+}
+
+.chart-small
+{
+  font-size: 60%;
+}
+
+.ssm-logo {
+    width: 100%;
+    margin: auto;
+    display: block;
 }
