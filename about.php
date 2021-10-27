@@ -176,6 +176,7 @@ elseif($_GET['submodule'] == "orgchart")
 
         <div class="row content">
           <div class="col-lg-6 ">
+          <img src="assets/orgchart.png" class="chart-logo">
           </div>
           <div class="col-lg-6">
             <img src="assets/jdj-logo.png" class="chart-logo">
@@ -202,11 +203,13 @@ elseif($_GET['submodule'] == "ssm")
 
         <div class="row content">
           <div class="col-lg-4">
+          <img src="assets/ssm1.png" class="ssm-logo">
           </div>
           <div class="col-lg-4">
             <img src="assets/jdj-logo.png" class="ssm-logo">            
           </div>
           <div class="col-lg-4">
+          <img src="assets/ssm2.png" class="ssm-logo">
           </div>
         </div>
       </div>
