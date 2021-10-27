@@ -181,7 +181,7 @@ elseif($_GET['submodule'] == "orgchart")
           <div class="col-lg-6">
             <img src="assets/jdj-logo.png" class="chart-logo">
             <div class="section-title text-center">         
-              <p class="chart-company">JDJ TECHNOLOGY (M) SDN. BHD.<br><small class="chart-small">(1359495-U)</small></p>
+              <p class="chart-company">JDJ TECHNOLOGY (M) SDN. BHD.<br><small class="chart-small">(1359495-U) </small></p>
               <p class="chart-company pt-3">JDJ METAL TRADING<br><small class="chart-small">(002687917-T)</small></p>
             </div>
           </div>
