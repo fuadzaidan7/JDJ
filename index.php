@@ -56,14 +56,14 @@
           <li><a href="index.php?module=home" class="<?php echo empty($_REQUEST['module']) || $_REQUEST['module'] == 'home'? 'active':''; ?>">Home </a></li>
           <li class="dropdown about-menu"><a href="javascript:void(0)" class="<?php echo $_REQUEST['module'] == 'about'? 'active':''; ?>"><span>About Us</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
               <ul>
-                <li><a href="index.php?module=about&submodule=vision" class="<?php echo $_REQUEST['submodule'] == 'vision'? 'active':''; ?>">Vision & Mission</a></li>
-                <li><a href="index.php?module=about&submodule=corporate" class="<?php echo $_REQUEST['submodule'] == 'corporate'? 'active':''; ?>">Corporate Details</a></li>
-                <li><a href="index.php?module=about&submodule=md_message" class="<?php echo $_REQUEST['submodule'] == 'md_message'? 'active':''; ?>">MD Message</a></li>
-                <li><a href="index.php?module=about&submodule=orgchart" class="<?php echo $_REQUEST['submodule'] == 'orgchart'? 'active':''; ?>">Organizational Chart</a></li>
-                <li><a href="index.php?module=about&submodule=ssm" class="<?php echo $_REQUEST['submodule'] == 'ssm'? 'active':''; ?>">SSM Certificate</a></li>
+                <li><a href="index.php?module=about&submodule=vision" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'vision'? 'active':''; ?>">Vision & Mission</a></li>
+                <li><a href="index.php?module=about&submodule=corporate" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'corporate'? 'active':''; ?>">Corporate Details</a></li>
+                <li><a href="index.php?module=about&submodule=md_message" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'md_message'? 'active':''; ?>">MD Message</a></li>
+                <li><a href="index.php?module=about&submodule=orgchart" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'orgchart'? 'active':''; ?>">Organizational Chart</a></li>
+                <li><a href="index.php?module=about&submodule=ssm" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'ssm'? 'active':''; ?>">SSM Certificate</a></li>
               </ul>
           </li>
-          <li class="dropdown service-menu"><a href="#"><span>Services</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li class="dropdown service-menu"><a href="javascript:void(0)"><span>Services</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
                 <li><a href="index.php?module=services&submodule=list">List of Services</a></li>
                 <li><a href="index.php?module=services&submodule=material">Type of Collected Material</a></li>
@@ -73,7 +73,7 @@
               </ul>
           </li>
           <li><a href="index.php?module=deconstruction">Deconstruction & Dismantling</a></li>  
-          <li class="dropdown project-menu"><a href="#"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li class="dropdown project-menu"><a href="javascript:void(0)"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
                 <li><a href="index.php?module=projects&submodule=1">SASASHIP PTE LTD</a></li>
                 <li><a href="index.php?module=projects&submodule=2">United Plantations BHD</a></li>

@@ -1,14 +1,13 @@
 <?php 
-
 if($_GET['submodule'] == "list")
 {
 ?>
 
-  <section id="vision" class="about">
+  <section id="list" >
       <div class="container">
 
       <div class="section-title">         
-        <p>Vision and mission </p>
+        <p>List of Services</p>
         <hr class="title-underline">
       </div>
         
@@ -17,28 +16,63 @@ if($_GET['submodule'] == "list")
       <div class="row content">
       
         <div class="col-lg-12 ">
-        <h4>VISION</h4>
           <p>
-          <span class="yellow">JDJ METAL TRADING</span>	HAS	CREATED	OUR	VISION	IS EMBEDDED IN	OUR	COMMITMENT TO ACTIVELY	PURSUE	AND ABIDE BY OUR BELIEFS:
+          We bring together a team of expertise in providing total solutions that ensures client's success and satisfaction.
+          </p>
+          <div class="row"> 
+            <div class="col-lg-2">
+              image
+            </div>
+            <div class="col-lg-10">
+              <p><span class="yellow">SELL AND PURCHASE OF USED INDUSTRIAL MACHINERIES, EQUIPMENT AND TOOLS</span></p>
+              <p>Our collection system enables us to purchase metal scrap at high rates.</p>
+            </div>
+            <div class="col-lg-2">
+              image
+            </div>
+            <div class="col-lg-10">
+              <p><span class="yellow">DISMANTLEMENT AND DECONSTRUCTION OF INDUSTRIAL MACHINERIES AND EQUIPMENT</span></p>
+              <p>Our experienced workforce allows us to provide high quality service with efficiency.</p>
+            </div>
+            <div class="col-lg-2">
+              image
+            </div>
+            <div class="col-lg-10">
+              <p><span class="yellow">SELLING OF RAW MATERIALS FOR STEEL AND CASTING.</span></p>
+              <p>We are experts in manufacturing materials such as used iron and pressed iron scrap for casting plants, in addition to iron for electric furnaces.</p>
+            </div>
+            <div class="col-lg-2">
+              image
+            </div>
+            <div class="col-lg-10">
+              <p><span class="yellow">SELL AND SUPPLY OF RIVER SAND.</span></p>
+              <p>We provide our customer with best selling price and quality for river sand used for construction.</p>
+            </div>           
+          </div>
+          
+        </div>
+        <div class="col-lg-12">
+          <hr class="gold-line mt-4 ">        
+          <p>We bring together a team of expertise in providing total solutions that ensures client's success and satisfaction.</p>
+          <p>
+        </div>
+        <div class="col-lg-8">
+            <span class="yellow">INDUSTRIAL WASTE PROCESSING</span>
           </p>
           <ul>
-            <li><i class="ri-check-double-line"></i> TO PROVIDE	EFFICIENCY	AND EFFECTIVENESS IN MANAGEMENT AND DELIVERANCE OF SERVICES.
+            <li class="text-justify"><i class="ri-check-double-line"></i> We are licensed to collect and transport industrial waste in every region of Malaysia, and engage in a wide range of processing with the cooperation of regional disposal contractors.
             </li>
-            <li><i class="ri-check-double-line"></i> TO	ACHIEVE	CORPORATE	BRANDING	AS	BEING	A BUSINESS ENTITY	THAT	BALANCES	EXCELLENT	SERVICES	AND BUSINESS	INTEGRITY.
+            <li class="text-justify"><i class="ri-check-double-line"></i> A wide range of facilities and equipment deconstruction, Including furnaces, processing machinery, presses, welding machines, coating equipment, conveyors, boilers, analysis and deconstruction of small PCB equipment, and asbestos analysis and removal.
             </li>
-            <li><i class="ri-check-double-line"></i> TO  HAVE  MUTUALLY  REWARDING  PARTNERSHIPS  BASED ON  RESPECT	AND	SUPPORT	FOR  THE	COMMUNITY,  EMPLOYEES, CUSTOMERS,	LIVING  ENVIRONMENT	AND	THE GENERAL PUBLIC.
+            <li class="text-justify"><i class="ri-check-double-line"></i> Deconstruction of steel, reinforced concrete, and wood structures, as well as smokestacks.
+            </li>
+            <li class="text-justify"><i class="ri-check-double-line"></i> E-waste recycling services, Office Dismantling Services, Building Deconstruction services, Machinery scrap and all Kinds of Cable Wire
             </li>
           </ul>
-         
-        </div>
 
-        <div class="col-lg-12 pt-4">
-        <h4>MISSION</h4>
-          <p class="text-justify">
-          OUR MISSION IS TO BE ONE OF THE MOST DEDICATED, RELIABLE, PROSPEROUS, EFFECTIVE AND SUCCESSFUL COMPANY IN THE SCRAP METAL TRADING ANDv RECYCLE CONTRACTOR AND SUB-CONTRACTORS TO CONDUCT THE JOBS THAT ARE PROVIDING SERVICE SUCH AS DISMANTLING SERVICE, SCRAP CLEAR-UP SERVICE, CO-COPERATING	TO MANAGE THE SCRAP OUTCOMES IN FACTORIES AND MANY MORE.
-          </p>
-          
-         
+        </div>
+        <div class="col-lg-4">
+            letak gamba
         </div>
 
       </div>
@@ -48,3 +82,111 @@ if($_GET['submodule'] == "list")
 
 <?php 
 }
+elseif($_GET['submodule'] == "material")
+{
+?>
+
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Type of collected Material </p>
+        <hr class="title-underline">
+      </div>
+        
+   
+
+      <div class="row content">
+      
+        <div class="col-lg-12 ">
+        
+        </div>
+
+        </div>
+
+      </div>
+  </section>
+
+<?php 
+}
+elseif($_GET['submodule'] == "safety")
+{
+?>
+
+  <section id="safety" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Safety is our main priority </p>
+        <hr class="title-underline">
+      </div>
+        
+   
+
+      <div class="row content">
+      
+        <div class="col-lg-12 ">
+        
+        </div>
+
+        </div>
+
+      </div>
+  </section>
+
+<?php 
+}
+elseif($_GET['submodule'] == "safetyequipment")
+{
+?>
+
+  <section id="safetyequipment" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Safety Equipments </p>
+        <hr class="title-underline">
+      </div>
+        
+   
+
+      <div class="row content">
+      
+        <div class="col-lg-12 ">
+        
+        </div>
+
+        </div>
+
+      </div>
+  </section>
+
+<?php 
+}
+elseif($_GET['submodule'] == "equipment")
+{
+?>
+
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Company Equipments </p>
+        <hr class="title-underline">
+      </div>
+        
+   
+
+      <div class="row content">
+      
+        <div class="col-lg-12 ">
+        
+        </div>
+
+        </div>
+
+      </div>
+  </section>
+<?php 
+}
+?>
