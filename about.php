@@ -176,7 +176,7 @@ elseif($_GET['submodule'] == "orgchart")
 
         <div class="row content">
           <div class="col-lg-6 ">
-          <img src="assets/orgchart.png" class="chart-logo">
+          <img src="assets/orgchart.png" class="chart-img">
           </div>
           <div class="col-lg-6">
             <img src="assets/jdj-logo.png" class="chart-logo">

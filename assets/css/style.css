@@ -554,15 +554,15 @@ section {
   line-height: 32px;
   font-size: 24px;
 }
-.about .content ul {
+section .content ul {
   list-style: none;
   padding: 0;
 }
-.about .content ul li {
+section .content ul li {
   padding: 10px 0 0 28px;
   position: relative;
 }
-.about .content ul i {
+section .content ul i {
   left: 0;
   top: 7px;
   position: absolute;
@@ -2188,6 +2188,11 @@ table.table-corporate{
 table td.td-item
 {
   width: 20% !important;
+}
+
+.chart-img
+{
+  width: 100%;
 }
 
 .chart-logo
