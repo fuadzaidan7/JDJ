@@ -21,30 +21,30 @@ if($_GET['submodule'] == "list")
           </p>
           <div class="row"> 
             <div class="col-lg-2">
-              image
+            <img src="assets/service1.png" class="services_img" >
             </div>
             <div class="col-lg-10">
               <p><span class="yellow">SELL AND PURCHASE OF USED INDUSTRIAL MACHINERIES, EQUIPMENT AND TOOLS</span></p>
               <p>Our collection system enables us to purchase metal scrap at high rates.</p>
             </div>
-            <div class="col-lg-2">
-              image
+            <div class="col-lg-2"></br>
+            <img src="assets/service2.png" class="services_img"  >
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-10"></br>
               <p><span class="yellow">DISMANTLEMENT AND DECONSTRUCTION OF INDUSTRIAL MACHINERIES AND EQUIPMENT</span></p>
               <p>Our experienced workforce allows us to provide high quality service with efficiency.</p>
             </div>
-            <div class="col-lg-2">
-              image
+            <div class="col-lg-2"></br>
+            <img src="assets/service3.png" class="services_img" >
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-10"></br>
               <p><span class="yellow">SELLING OF RAW MATERIALS FOR STEEL AND CASTING.</span></p>
               <p>We are experts in manufacturing materials such as used iron and pressed iron scrap for casting plants, in addition to iron for electric furnaces.</p>
             </div>
-            <div class="col-lg-2">
-              image
+            <div class="col-lg-2"></br>
+            <img src="assets/service4.png" class="services_img">
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-10"></br>
               <p><span class="yellow">SELL AND SUPPLY OF RIVER SAND.</span></p>
               <p>We provide our customer with best selling price and quality for river sand used for construction.</p>
             </div>           
@@ -72,7 +72,7 @@ if($_GET['submodule'] == "list")
 
         </div>
         <div class="col-lg-4">
-            letak gamba
+        <img src="assets/waste_process.png" class="waste_process">
         </div>
 
       </div>
@@ -93,13 +93,18 @@ elseif($_GET['submodule'] == "material")
         <p>Type of collected Material </p>
         <hr class="title-underline">
       </div>
-        
+      
    
 
-      <div class="row content">
+      <div class="row content ">
       
-        <div class="col-lg-12 ">
-        
+      <div class="col-lg-6">
+        <span class="yellow">FERROUS MATERIALS</span>
+        <img src="assets/ferrous_materials.png" class="waste_process">
+        </div>
+        <div class="col-lg-6 ">
+        <span class="yellow">NON-FERROUS MATERIALS</span>
+        <img src="assets/nonferrous_materials.png" class="waste_process">
         </div>
 
         </div>
@@ -124,9 +129,15 @@ elseif($_GET['submodule'] == "safety")
    
 
       <div class="row content">
-      
-        <div class="col-lg-12 ">
-        
+      <p>We bring together a team of expertise in providing total solutions that ensures client's success and satisfaction.</p>
+      <div class="col-lg-4 ">
+        <img src="assets/safety1.png" class="waste_process">
+        </div>
+        <div class="col-lg-4 ">
+        <img src="assets/safety2.png" class="waste_process">
+        </div>
+        <div class="col-lg-4 ">
+        <img src="assets/safety3.png" class="waste_process">
         </div>
 
         </div>
@@ -150,12 +161,57 @@ elseif($_GET['submodule'] == "safetyequipment")
         
    
 
-      <div class="row content">
-      
-        <div class="col-lg-12 ">
-        
+      <div class="row content">      
+      <div class="col-lg-2 ">        
+            <img src="assets/firstaid.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/safetybelts.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/safetywest.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/glove.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/helmet.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/shoe.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
         </div>
-
+        <div class="row content">      
+      <div class="col-lg-2 ">        
+            <img src="assets/eye.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/oxygen.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/mask.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/fireextinguisher.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/ear.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
+      <div class="col-lg-2 ">        
+            <img src="assets/cone.png" class="services_img">          
+            <p class="text-center">FIRST AID KID</p>
+      </div>
         </div>
 
       </div>
@@ -179,9 +235,31 @@ elseif($_GET['submodule'] == "equipment")
 
       <div class="row content">
       
-        <div class="col-lg-12 ">
-        
+      <div class="col-lg-4 ">
+        <img src="assets/equipment1.png" class="equipment_img">          
+            <p class="text-center yellow">MAGNETIC EXCAVATOR</p>
         </div>
+        <div class="col-lg-4 ">
+        <img src="assets/equipment2.png" class="equipment_img">          
+            <p class="text-center yellow">FORKLIFT (3 TONNE)</p>
+        </div>
+        <div class="col-lg-4 ">
+        <img src="assets/equipment3.png" class="equipment_img">          
+            <p class="text-center yellow">EX300 EXCAVATOR</p>
+        </div>
+
+        </div>
+        <div class="row content">
+      
+      <div class="col-lg-6">
+        <img src="assets/equipment4.png" class="equipment_img">          
+            <p class="text-center yellow">HYDRAULIC BREAKER</p>
+        </div>
+        <div class="col-lg-6 ">
+        <img src="assets/equipment5.png" class="equipment_img">          
+            <p class="text-center yellow">JCB BACKHOE</p>
+        </div>
+       
 
         </div>
 

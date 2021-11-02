@@ -2213,7 +2213,22 @@ table td.td-item
 }
 
 .ssm-logo {
-    width: 100%;
-    margin: auto;
-    display: block;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.services_img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+.waste_process {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+.equipment_img {
+  width: 80%;
+  margin: auto;
+  display: block;
 }
