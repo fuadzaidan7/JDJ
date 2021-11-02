@@ -73,7 +73,7 @@
               </ul>
           </li>
           <li><a href="index.php?module=deconstruction">Deconstruction & Dismantling</a></li>  
-          <li class="dropdown project-menu"><a href="javascript:void(0)"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li class="dropdown project-menu"><a href="index.php?module=deconstruction"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
                 <li><a href="index.php?module=projects&submodule=1">SASASHIP PTE LTD</a></li>
                 <li><a href="index.php?module=projects&submodule=2">United Plantations BHD</a></li>
