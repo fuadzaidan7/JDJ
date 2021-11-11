@@ -1,4 +1,8 @@
 
+html
+{
+  overflow-x: hidden;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -2217,18 +2221,35 @@ table td.td-item
   margin: auto;
   display: block;
 }
+
 .services_img {
-  width: 60%;
+  height: 120px;
+  width: auto;
   margin: auto;
   display: block;
 }
 .waste_process {
-  width: 80%;
+  width: auto;
+  height: 400px;
   margin: auto;
   display: block;
 }
+.waste_process_3 {
+    height: 250px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.waste_process_4 {
+    height: 250px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
 .equipment_img {
-  width: 80%;
+  width: auto;
+  max-height: 300px;
   margin: auto;
   display: block;
 }
