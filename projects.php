@@ -273,7 +273,8 @@ if($_GET['submodule'] == "1")
       
   </section>
 <?php 
-}if($_GET['submodule'] == "2")
+}
+if($_GET['submodule'] == "2")
 {
 ?>
 
@@ -516,6 +517,524 @@ if($_GET['submodule'] == "1")
             <img src="assets/img/plantation16.png" class="waste_process">
         </div>
   
+  
+</div>
+      
+  </section>
+<?php 
+}if($_GET['submodule'] == "3")
+{
+?>
+
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Project Implementation </p>
+        <hr class="title-underline">
+      </div>
+      
+
+
+
+<div class="row content ">
+      
+      <div class="col-lg-6">
+        <span class="yellow">PROJECT DESCRIPTION</span>
+
+        <div class="row">
+            <div class="col-lg-6 yellow">
+                COMPANY NAME  
+            </div>
+            <div class="col-lg-6">
+                : GUOCERA TILES (M) SDN. BHD.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT LOCATION  
+            </div>
+            <div class="col-lg-6">
+                : KLUANG, JOHOR
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT NAME  
+            </div>
+            <div class="col-lg-6">
+                : DISMANTLE
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT VALUE  
+            </div>
+            <div class="col-lg-6">
+                : RM 1,200 000.00
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            GUOCERA DETAILS
+            </div>
+            <div class="col-lg-6">               
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            YEAR COMMENCE  
+            </div>
+            <div class="col-lg-6"> 
+            : MAY 2019 – NOVEMBER 2020            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT STARTED DATE  
+            </div>
+            <div class="col-lg-6">    
+            : 21ST	MAY 2019         
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            COMPLETION DATE  
+            </div>
+            <div class="col-lg-6">   
+            : 2OTH	NOV 2020
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            QUANTITY OF EMPLOYEES
+            </div>
+            <div class="col-lg-6"> 
+            : 20 PEOPLE              
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            NO.OF MONTH TAKEN
+            </div>
+            <div class="col-lg-6"> 
+            : 12 MONTHS (DUE MCO)             
+            </div>
+        </div>
+
+        
+
+
+     </div>
+        
+
+        <div class="col-lg-6 ">
+        <span class="yellow">EQUIPMENT USED</span>
+        
+        <div class="row">
+            <div class="col-lg-12">
+            
+            <ul>
+                <li>- 15 CUTTER, DRILL, SHOVELS.</li>
+                <li>- MAGNETIC CRANE</li>
+                <li>- FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
+                <li>- LORRY 40 FT CARGO</li>
+                <li>- CRANE 50 TON</li>
+                <li>- BULLDOZERS</li>
+            </ul>
+
+
+            </div>
+            
+        </div>     
+        </div>
+
+
+      
+
+     
+
+
+    </div>
+
+  </section>
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Project Documents </p>
+        <hr class="title-underline">
+      </div>
+
+
+      <div class="row content">
+    
+        <div class="col-lg-3">
+            <img src="assets/img/guoceradoc1.png" class="waste_process">
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+            <img src="assets/img/guoceradoc2.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+            <img src="assets/img/guoceradoc3.jpg" class="waste_process">
+        </div>
+        
+      
+    </div>
+</br>
+<div class="row content">
+    
+        <div class="col-lg-3 offset-lg-1">
+            <img src="assets/img/guoceradoc4.png" class="waste_process">
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+            <img src="assets/img/guoceradoc5.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3 offset-lg-1">
+            <img src="assets/img/guoceradoc6.jpg" class="waste_process">
+        </div>
+        
+      
+    </div>
+</br>
+
+
+    
+      
+  </section>
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Project Photo Gallery </p>
+        <hr class="title-underline">
+      </div>
+
+
+      <div class="row content">
+    
+        <div class="col-lg-2">
+            <img src="assets/img/guocera1.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera2.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera3.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera4.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera5.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera6.png" class="waste_process">
+        </div>
+      
+    </div>
+</br>
+<div class="row content">
+    
+        <div class="col-lg-2">
+            <img src="assets/img/guocera7.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera8.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera9.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera10.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera11.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/guocera12.png" class="waste_process">
+        </div>
+      
+    </div>
+    
+      
+  </section>
+<?php 
+}if($_GET['submodule'] == "4")
+{
+?>
+
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Project Implementation </p>
+        <hr class="title-underline">
+      </div>
+      
+
+
+
+<div class="row content ">
+      
+      <div class="col-lg-6">
+        <span class="yellow">PROJECT DESCRIPTION</span>
+
+        <div class="row">
+            <div class="col-lg-6 yellow">
+                COMPANY NAME  
+            </div>
+            <div class="col-lg-6">
+                : PETROGAS
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT LOCATION  
+            </div>
+            <div class="col-lg-6">
+                : BENTONG, PAHANG
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT NAME  
+            </div>
+            <div class="col-lg-6">
+                : DISMANTLE
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT VALUE  
+            </div>
+            <div class="col-lg-6">
+                : RM 600 000.00
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PETROGAS DETAILS
+            </div>
+            <div class="col-lg-6">               
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            YEAR COMMENCE  
+            </div>
+            <div class="col-lg-6"> 
+            : : JULY 2020 – SEPTEMBER 2020
+             
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            PROJECT STARTED DATE  
+            </div>
+            <div class="col-lg-6">    
+            : 20TH JULY 202O           
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            COMPLETION DATE  
+            </div>
+            <div class="col-lg-6">   
+            : 20TH	SEPT 2020
+         
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            QUANTITY OF EMPLOYEES  
+            </div>
+            <div class="col-lg-6"> 
+            : 20 PEOPLE
+           
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 yellow">
+            NO.OF MONTH TAKEN
+
+            </div>
+            <div class="col-lg-6"> 
+            : 2 MONTHS           
+            </div>
+        </div>
+
+        
+
+
+     </div>
+        
+
+        <div class="col-lg-6 ">
+        <span class="yellow">EQUIPMENT USED</span>
+        
+        <div class="row">
+            <div class="col-lg-12">
+            
+            <ul>
+                <li>- 15 CUTTER, DRILL, SHOVELS.</li>
+                <li>- MAGNETIC CRANE</li>
+                <li>- FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
+                <li>- LORRY 40 FT CARGO</li>
+                <li>- TRUCKS</li>
+                <li>- BULLDOZERS</li>
+            </ul>
+
+
+            </div>
+            
+        </div>
+        
+
+       
+
+     
+
+
+        </div>
+
+
+      
+
+     
+
+
+    </div>
+
+  </section>
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Project Documents </p>
+        <hr class="title-underline">
+      </div>
+
+
+      <div class="row content">
+    
+        <div class="col-lg-3">
+            <img src="assets/img/petrogasdoc1.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3">
+            <img src="assets/img/petrogasdoc2.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3 ">
+            <img src="assets/img/petrogasdoc3.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3 ">
+            <img src="assets/img/petrogasdoc4.jpg" class="waste_process">
+        </div>
+        
+      
+    </div>
+</br>
+<div class="row content">
+    
+        <div class="col-lg-3">
+            <img src="assets/img/petrogasdoc5.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3">
+            <img src="assets/img/petrogasdoc6.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3">
+            <img src="assets/img/petrogasdoc7.jpg" class="waste_process">
+        </div>
+        <div class="col-lg-3 ">
+            <img src="assets/img/petrogasdoc8.jpg" class="waste_process">
+        </div>
+        
+      
+    </div>
+</br>
+
+
+    
+      
+  </section>
+  <section id="material" >
+      <div class="container">
+
+      <div class="section-title">         
+        <p>Project Photo Gallery </p>
+        <hr class="title-underline">
+      </div>
+
+
+      <div class="row content">
+    
+      <div class="col-lg-2">
+            <img src="assets/img/petrogas1.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas2.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas3.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas4.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas5.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas6.png" class="waste_process">
+        </div>
+      
+    </div>
+</br>
+<div class="row content">
+    
+    <div class="col-lg-2">
+            <img src="assets/img/petrogas7.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas8.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas9.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas10.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas11.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas12.png" class="waste_process">
+        </div>
+  
+</div>
+</br>
+<div class="row content">
+    
+    <div class="col-lg-2">
+            <img src="assets/img/petrogas13.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas14.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas15.png" class="waste_process">
+        </div>
+        <div class="col-lg-2">
+            <img src="assets/img/petrogas16.png" class="waste_process">
+        </div>
+   
   
 </div>
       
