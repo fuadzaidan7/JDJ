@@ -24,7 +24,7 @@ if($_GET['submodule'] == "1")
                 COMPANY NAME  
             </div>
             <div class="col-lg-6">
-                : SASASHIP PTE LTD
+                <span class="text-double-dot">:</span> SASASHIP PTE LTD
             </div>
         </div>
         <div class="row">
@@ -32,7 +32,7 @@ if($_GET['submodule'] == "1")
             PROJECT LOCATION  
             </div>
             <div class="col-lg-6">
-                : JENJAROM,MALAYSIA
+                <span class="text-double-dot">:</span> JENJAROM,MALAYSIA
             </div>
         </div>
         <div class="row">
@@ -40,7 +40,7 @@ if($_GET['submodule'] == "1")
             PROJECT NAME  
             </div>
             <div class="col-lg-6">
-                : DISMANTLING VESSEL
+                <span class="text-double-dot">:</span> DISMANTLING VESSEL
             </div>
         </div>
         <div class="row">
@@ -48,7 +48,7 @@ if($_GET['submodule'] == "1")
             PROJECT VALUE  
             </div>
             <div class="col-lg-6">
-                : RM 1,040,000
+                <span class="text-double-dot">:</span> RM 1,040,000
             </div>
         </div>
 
@@ -66,7 +66,7 @@ if($_GET['submodule'] == "1")
             SHIP NAME
             </div>
             <div class="col-lg-6"> 
-            : PANCON SAPPHIRE              
+            <span class="text-double-dot">:</span> PANCON SAPPHIRE              
             </div>
         </div>
         <div class="row">
@@ -74,7 +74,7 @@ if($_GET['submodule'] == "1")
             TYPE
             </div>
             <div class="col-lg-6">    
-            : DECK CARGO BARGE           
+            <span class="text-double-dot">:</span> DECK CARGO BARGE           
             </div>
         </div>
         <div class="row">
@@ -82,7 +82,7 @@ if($_GET['submodule'] == "1")
             PORT OF REG
             </div>
             <div class="col-lg-6">   
-            : SINGAPORE            
+            <span class="text-double-dot">:</span> SINGAPORE            
             </div>
         </div>
         <div class="row">
@@ -90,7 +90,7 @@ if($_GET['submodule'] == "1")
             CLASSIFICATION
             </div>
             <div class="col-lg-6"> 
-            : BUREAU VERITAS              
+            <span class="text-double-dot">:</span> BUREAU VERITAS              
             </div>
         </div>
         <div class="row">
@@ -98,7 +98,7 @@ if($_GET['submodule'] == "1")
             VESSEL OWNER
             </div>
             <div class="col-lg-6"> 
-            : PANCON SHIPPING & MARINE  SERVICES PTE. LTD.              
+            <span class="text-double-dot">:</span> PANCON SHIPPING & MARINE  SERVICES PTE. LTD.              
             </div>
         </div>
 
@@ -107,7 +107,7 @@ if($_GET['submodule'] == "1")
             HULL NO
             </div>
             <div class="col-lg-6"> 
-            : 2003         
+            <span class="text-double-dot">:</span> 2003         
             </div>
         </div>
         <div class="row">
@@ -115,7 +115,7 @@ if($_GET['submodule'] == "1")
             LENGTH
             </div>
             <div class="col-lg-6"> 
-            : 6.200 M 250 FT       
+            <span class="text-double-dot">:</span> 6.200 M 250 FT       
             </div>
         </div>
         <div class="row">
@@ -123,7 +123,7 @@ if($_GET['submodule'] == "1")
             LIGHT SHIP 
             </div>
             <div class="col-lg-6"> 
-            : 663.01 TONES      
+            <span class="text-double-dot">:</span> 663.01 TONES      
             </div>
         </div>
         <div class="row">
@@ -131,7 +131,7 @@ if($_GET['submodule'] == "1")
             GROSS TONS
             </div>
             <div class="col-lg-6"> 
-            : 1642      
+            <span class="text-double-dot">:</span> 1642      
             </div>
         </div>
         <div class="row">
@@ -139,7 +139,7 @@ if($_GET['submodule'] == "1")
             YEAR COMMENCE
             </div>
             <div class="col-lg-6"> 
-            : 2018  
+            <span class="text-double-dot">:</span> 2018  
             </div>
         </div>
         <div class="row">
@@ -147,7 +147,7 @@ if($_GET['submodule'] == "1")
             PROJECT STARTED DATE
             </div>
             <div class="col-lg-6"> 
-            : 10TH APR 2018      
+            <span class="text-double-dot">:</span> 10TH APR 2018      
             </div>
         </div>
         <div class="row">
@@ -155,7 +155,7 @@ if($_GET['submodule'] == "1")
             COMPLETION DATE
             </div>
             <div class="col-lg-6"> 
-            : 05TH MAY 2018            
+            <span class="text-double-dot">:</span> 05TH MAY 2018            
             </div>
         </div>
         <div class="row">
@@ -163,7 +163,7 @@ if($_GET['submodule'] == "1")
             QUANTITY OF EMPLOYEES
             </div>
             <div class="col-lg-6"> 
-            : 15 PEOPLE        
+            <span class="text-double-dot">:</span> 15 PEOPLE        
             </div>
         </div>
         <div class="row">
@@ -171,7 +171,7 @@ if($_GET['submodule'] == "1")
             NO OF DAYS TAKEN
             </div>
             <div class="col-lg-6"> 
-            : 26 DAYS        
+            <span class="text-double-dot">:</span> 26 DAYS        
             </div>
         </div>
 
@@ -186,11 +186,11 @@ if($_GET['submodule'] == "1")
             <div class="col-lg-12">
             
             <ul>
-                <li>- 10 CUTTER</li>
-                <li>- MAGNETIC CRANE</li>
-                <li>- FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
-                <li>- LORRY 40 FT CARGO</li>
-                <li>- CRANE 50 TON</li>
+                <li><span class="text-dash">-</span>10 CUTTER</li>
+                <li><span class="text-dash">-</span>MAGNETIC CRANE</li>
+                <li><span class="text-dash">-</span>FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
+                <li><span class="text-dash">-</span>LORRY 40 FT CARGO</li>
+                <li><span class="text-dash">-</span>CRANE 50 TON</li>
             </ul>
 
 
@@ -201,14 +201,14 @@ if($_GET['submodule'] == "1")
             <div class="col-lg-12">
             <span class="yellow">PHASED DISMANTLING,INVOLVING</span>
             <p class="yellow">Dry Docking / Graving Dock</p>
-            <p>Breaking done in watertight container sunk in the ground. Poses low  contamination risk</p>
+            <p>Breaking done in watertight container sunk in the ground. Poses low  contamination risk.</p>
             </div>        
         </div>
 
         <div class="row">
             <div class="col-lg-12">
             <p class="yellow">Green Docking</p>
-            <p>Innovative version of dry docking. Uses weight to counter uplift caused by pressure from water outside container. slicing the vessel’s body into 14 sections
+            <p>Innovative version of dry docking. Uses weight to counter uplift caused by pressure from water outside container. Slicing the vessel’s body into 14 sections
             of	20m and 1,500 ton	in	the	foil dock -land side	cutting	stations with supports for maximum 1,500t	per place demolition of sections into various
             qualities	of	scrap at cutting stations design	and	detailed drawings quay wall for the disposal of scrap transfer of scrap to steel plant.</p>
             </div>        
@@ -299,7 +299,7 @@ if($_GET['submodule'] == "2")
                 COMPANY NAME  
             </div>
             <div class="col-lg-6">
-                : UNITED PLANTATIONS BHD
+                <span class="text-double-dot">:</span> UNITED PLANTATIONS BHD
             </div>
         </div>
         <div class="row">
@@ -307,7 +307,7 @@ if($_GET['submodule'] == "2")
             PROJECT LOCATION  
             </div>
             <div class="col-lg-6">
-                : ULU BERNAM, MALAYSIA
+                <span class="text-double-dot">:</span> ULU BERNAM, MALAYSIA
             </div>
         </div>
         <div class="row">
@@ -315,7 +315,7 @@ if($_GET['submodule'] == "2")
             PROJECT NAME  
             </div>
             <div class="col-lg-6">
-                : SCRAP OIL MILL FACTORY
+                <span class="text-double-dot">:</span> SCRAP OIL MILL FACTORY
             </div>
         </div>
         <div class="row">
@@ -323,7 +323,7 @@ if($_GET['submodule'] == "2")
             PROJECT VALUE  
             </div>
             <div class="col-lg-6">
-                : RM 1,750,000
+                <span class="text-double-dot">:</span> RM 1,750,000
             </div>
         </div>
 
@@ -341,7 +341,7 @@ if($_GET['submodule'] == "2")
             LAND
             </div>
             <div class="col-lg-6"> 
-            : 8 HECTARES OIL PALM ,SUNGEI  BERNAM ESTATE             
+            <span class="text-double-dot">:</span> 8 HECTARES OIL PALM ,SUNGEI  BERNAM ESTATE             
             </div>
         </div>
         <div class="row">
@@ -349,7 +349,7 @@ if($_GET['submodule'] == "2")
             YEAR COMMENCE  
             </div>
             <div class="col-lg-6">    
-            : 2018          
+            <span class="text-double-dot">:</span> 2018          
             </div>
         </div>
         <div class="row">
@@ -357,7 +357,7 @@ if($_GET['submodule'] == "2")
             PROJECT STARTED DATE  
             </div>
             <div class="col-lg-6">   
-            : 14TH MAY 2018            
+            <span class="text-double-dot">:</span> 14TH MAY 2018            
             </div>
         </div>
         <div class="row">
@@ -365,7 +365,7 @@ if($_GET['submodule'] == "2")
             COMPLETION DATE  
             </div>
             <div class="col-lg-6"> 
-            : 21ST NOV 2018             
+            <span class="text-double-dot">:</span> 21ST NOV 2018             
             </div>
         </div>
         <div class="row">
@@ -373,7 +373,7 @@ if($_GET['submodule'] == "2")
             QUANTITY OF EMPLOYEES
             </div>
             <div class="col-lg-6"> 
-            : 20 PEOPLE              
+            <span class="text-double-dot">:</span> 20 PEOPLE              
             </div>
         </div>
 
@@ -382,7 +382,7 @@ if($_GET['submodule'] == "2")
             NO.OF MONTH TAKEN
             </div>
             <div class="col-lg-6"> 
-            : 6 MONTHS
+            <span class="text-double-dot">:</span> 6 MONTHS
          
             </div>
         </div>
@@ -391,12 +391,12 @@ if($_GET['submodule'] == "2")
         <div class="col-lg-12">
             
             <ul>
-                <li>- 15 CUTTER, DRILL, SHOVELS.</li>
-                <li>- MAGNETIC CRANE</li>
-                <li>- FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
-                <li>- LORRY 40 FT CARGO</li>
-                <li>- TRUCKS</li>
-                <li>- BULLDOZERS</li>
+                <li><span class="text-dash">-</span> 15 CUTTER, DRILL, SHOVELS.</li>
+                <li><span class="text-dash">-</span> MAGNETIC CRANE</li>
+                <li><span class="text-dash">-</span> FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
+                <li><span class="text-dash">-</span> LORRY 40 FT CARGO</li>
+                <li><span class="text-dash">-</span> TRUCKS</li>
+                <li><span class="text-dash">-</span> BULLDOZERS</li>
             </ul>
         </div></div>
       
@@ -412,19 +412,18 @@ if($_GET['submodule'] == "2")
             <span class="yellow">FACTS</span>
             
             <ul>
-                <li>- All loose debris to be removed from height. Eg. Debris to be removed from  flat roof or tops of wall.
+                <li><span class="text-dash">-</span>All loose debris to be removed from height. Eg. Debris to be removed from  flat roof or tops of wall.
 </li>
-                <li>- The project is designated a hard hat site and appropriate hard hat signs and  a barrier safe zone shall be put in place.
+                <li><span class="text-dash">-</span>The project is designated a hard hat site and appropriate hard hat signs and  a barrier safe zone shall be put in place.
 </li>
-                <li>- Falling	object	protection	must	be fitted on demolition  excavator  plant.
+                <li><span class="text-dash">-</span>Falling	object	protection	must	be fitted on demolition  excavator  plant.
 </li>
-                <li>- All high level demolition and soft strip will be performed by an  excavator
+                <li><span class="text-dash">-</span>All high level demolition and soft strip will be performed by an  excavator.
 </li>
-                <li>- Competent and experience supervisor and	operatives to undertake works.
+                <li><span class="text-dash">-</span>Competent and experience supervisor and	operatives to undertake works.
 </li>
-<li>- A watchmen shall be present outside of the hording when demolition  works are being undertaken close the hording to direct pedestrians  and provide safe passage. Temporary barriers maybe erected.</li>
-<li>- Gas and electricity supplies to site must be isolated before our work  commences. All services are to be treated as live unless identified from  plans
-</li>
+<li><span class="text-dash">-</span>A watchmen shall be present outside of the hording when demolition  works are being undertaken close the hording to direct pedestrians  and provide safe passage. Temporary barriers maybe erected.</li>
+<li><span class="text-dash">-</span>Gas and electricity supplies to site must be isolated before our work  commences. All services are to be treated as live unless identified from  plans.</li>
             </ul>
 
 
@@ -504,7 +503,7 @@ if($_GET['submodule'] == "2")
 </br>
 <div class="row content">
     
-    <div class="col-lg-2">
+        <div class="col-lg-2 offset-lg-2">
             <img src="assets/img/plantation13.png" class="waste_process">
         </div>
         <div class="col-lg-2">
@@ -547,7 +546,7 @@ if($_GET['submodule'] == "2")
                 COMPANY NAME  
             </div>
             <div class="col-lg-6">
-                : GUOCERA TILES (M) SDN. BHD.
+                <span class="text-double-dot">:</span> GUOCERA TILES (M) SDN. BHD.
             </div>
         </div>
         <div class="row">
@@ -555,7 +554,7 @@ if($_GET['submodule'] == "2")
             PROJECT LOCATION  
             </div>
             <div class="col-lg-6">
-                : KLUANG, JOHOR
+                <span class="text-double-dot">:</span> KLUANG, JOHOR
             </div>
         </div>
         <div class="row">
@@ -563,7 +562,7 @@ if($_GET['submodule'] == "2")
             PROJECT NAME  
             </div>
             <div class="col-lg-6">
-                : DISMANTLE
+                <span class="text-double-dot">:</span> DISMANTLE
             </div>
         </div>
         <div class="row">
@@ -571,7 +570,7 @@ if($_GET['submodule'] == "2")
             PROJECT VALUE  
             </div>
             <div class="col-lg-6">
-                : RM 1,200 000.00
+                <span class="text-double-dot">:</span> RM 1,200 000.00
             </div>
         </div>
 
@@ -589,7 +588,7 @@ if($_GET['submodule'] == "2")
             YEAR COMMENCE  
             </div>
             <div class="col-lg-6"> 
-            : MAY 2019 – NOVEMBER 2020            
+            <span class="text-double-dot">:</span> MAY 2019 – NOVEMBER 2020            
             </div>
         </div>
         <div class="row">
@@ -597,7 +596,7 @@ if($_GET['submodule'] == "2")
             PROJECT STARTED DATE  
             </div>
             <div class="col-lg-6">    
-            : 21ST	MAY 2019         
+            <span class="text-double-dot">:</span> 21ST	MAY 2019         
             </div>
         </div>
         <div class="row">
@@ -605,7 +604,7 @@ if($_GET['submodule'] == "2")
             COMPLETION DATE  
             </div>
             <div class="col-lg-6">   
-            : 2OTH	NOV 2020
+            <span class="text-double-dot">:</span> 2OTH	NOV 2020
             
             </div>
         </div>
@@ -614,7 +613,7 @@ if($_GET['submodule'] == "2")
             QUANTITY OF EMPLOYEES
             </div>
             <div class="col-lg-6"> 
-            : 20 PEOPLE              
+            <span class="text-double-dot">:</span> 20 PEOPLE              
             </div>
         </div>
         <div class="row">
@@ -622,7 +621,7 @@ if($_GET['submodule'] == "2")
             NO.OF MONTH TAKEN
             </div>
             <div class="col-lg-6"> 
-            : 12 MONTHS (DUE MCO)             
+            <span class="text-double-dot">:</span> 12 MONTHS (DUE MCO)             
             </div>
         </div>
 
@@ -639,12 +638,12 @@ if($_GET['submodule'] == "2")
             <div class="col-lg-12">
             
             <ul>
-                <li>- 15 CUTTER, DRILL, SHOVELS.</li>
-                <li>- MAGNETIC CRANE</li>
-                <li>- FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
-                <li>- LORRY 40 FT CARGO</li>
-                <li>- CRANE 50 TON</li>
-                <li>- BULLDOZERS</li>
+                <li><span class="text-dash">-</span>15 CUTTER, DRILL, SHOVELS.</li>
+                <li><span class="text-dash">-</span>MAGNETIC CRANE</li>
+                <li><span class="text-dash">-</span>FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
+                <li><span class="text-dash">-</span>LORRY 40 FT CARGO</li>
+                <li><span class="text-dash">-</span>CRANE 50 TON</li>
+                <li><span class="text-dash">-</span>BULLDOZERS</li>
             </ul>
 
 
@@ -789,7 +788,7 @@ if($_GET['submodule'] == "2")
                 COMPANY NAME  
             </div>
             <div class="col-lg-6">
-                : PETROGAS
+                <span class="text-double-dot">:</span> PETROGAS
             </div>
         </div>
         <div class="row">
@@ -797,7 +796,7 @@ if($_GET['submodule'] == "2")
             PROJECT LOCATION  
             </div>
             <div class="col-lg-6">
-                : BENTONG, PAHANG
+                <span class="text-double-dot">:</span> BENTONG, PAHANG
             </div>
         </div>
         <div class="row">
@@ -805,7 +804,7 @@ if($_GET['submodule'] == "2")
             PROJECT NAME  
             </div>
             <div class="col-lg-6">
-                : DISMANTLE
+                <span class="text-double-dot">:</span> DISMANTLE
             </div>
         </div>
         <div class="row">
@@ -813,7 +812,7 @@ if($_GET['submodule'] == "2")
             PROJECT VALUE  
             </div>
             <div class="col-lg-6">
-                : RM 600 000.00
+                <span class="text-double-dot">:</span> RM 600 000.00
 
             </div>
         </div>
@@ -832,7 +831,7 @@ if($_GET['submodule'] == "2")
             YEAR COMMENCE  
             </div>
             <div class="col-lg-6"> 
-            : : JULY 2020 – SEPTEMBER 2020
+            <span class="text-double-dot">:</span> <span class="text-double-dot">:</span> JULY 2020 – SEPTEMBER 2020
              
             </div>
         </div>
@@ -841,7 +840,7 @@ if($_GET['submodule'] == "2")
             PROJECT STARTED DATE  
             </div>
             <div class="col-lg-6">    
-            : 20TH JULY 202O           
+            <span class="text-double-dot">:</span> 20TH JULY 202O           
             </div>
         </div>
         <div class="row">
@@ -849,7 +848,7 @@ if($_GET['submodule'] == "2")
             COMPLETION DATE  
             </div>
             <div class="col-lg-6">   
-            : 20TH	SEPT 2020
+            <span class="text-double-dot">:</span> 20TH	SEPT 2020
          
             </div>
         </div>
@@ -858,7 +857,7 @@ if($_GET['submodule'] == "2")
             QUANTITY OF EMPLOYEES  
             </div>
             <div class="col-lg-6"> 
-            : 20 PEOPLE
+            <span class="text-double-dot">:</span> 20 PEOPLE
            
             </div>
         </div>
@@ -868,7 +867,7 @@ if($_GET['submodule'] == "2")
 
             </div>
             <div class="col-lg-6"> 
-            : 2 MONTHS           
+            <span class="text-double-dot">:</span> 2 MONTHS           
             </div>
         </div>
 
@@ -885,12 +884,12 @@ if($_GET['submodule'] == "2")
             <div class="col-lg-12">
             
             <ul>
-                <li>- 15 CUTTER, DRILL, SHOVELS.</li>
-                <li>- MAGNETIC CRANE</li>
-                <li>- FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
-                <li>- LORRY 40 FT CARGO</li>
-                <li>- TRUCKS</li>
-                <li>- BULLDOZERS</li>
+                <li><span class="text-dash">-</span>15 CUTTER, DRILL, SHOVELS.</li>
+                <li><span class="text-dash">-</span>MAGNETIC CRANE</li>
+                <li><span class="text-dash">-</span>FORKLIFT ( 2 UNIT 2 ½ TON, 2 UNIT 3 TON)</li>
+                <li><span class="text-dash">-</span>LORRY 40 FT CARGO</li>
+                <li><span class="text-dash">-</span>TRUCKS</li>
+                <li><span class="text-dash">-</span>BULLDOZERS</li>
             </ul>
 
 
@@ -1022,7 +1021,7 @@ if($_GET['submodule'] == "2")
 </br>
 <div class="row content">
     
-    <div class="col-lg-2">
+    <div class="col-lg-2 offset-lg-2">
             <img src="assets/img/petrogas13.png" class="waste_process">
         </div>
         <div class="col-lg-2">

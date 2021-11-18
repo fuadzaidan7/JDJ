@@ -1,4 +1,4 @@
-<!-- ======= Hero Section ======= -->
+<!-- ======= Hero Section ======= 
 <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
@@ -6,7 +6,7 @@
 
       <div class="carousel-inner" role="listbox">
 
-        <!-- Slide 1 -->
+   
         <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="carousel-container">
             <div class="container">
@@ -17,7 +17,7 @@
           </div>
         </div>
 
-        <!-- Slide 2 -->
+
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
           <div class="carousel-container">
             <div class="container">
@@ -28,7 +28,7 @@
           </div>
         </div>
 
-        <!-- Slide 3 -->
+        
         <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
           <div class="carousel-container">
             <div class="container">
@@ -50,12 +50,12 @@
       </a>
 
     </div>
-  </section><!-- End Hero -->
+  </section End Hero -->
 
   <section id="summary">
 
-      <div class="container px-0">
-        <hr class="gold-line">
+      <div class="container px-0 mt-4">
+        <!-- <hr class="gold-line"> -->
         <div class="row content">
         
           <div class="col-lg-8 ">  

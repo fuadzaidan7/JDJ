@@ -47,7 +47,7 @@
   <header id="header" class=" d-flex align-items-center bg-gold" >    
     <div class="container d-flex align-items-center">
 
-      <a style="position: absolute;" href="index.html"><img class="company-logo" src="assets/jdj-logo.png"></a>
+      <a style="position: absolute;" href="index.php?module=home"><img class="company-logo" src="assets/jdj-logo.png"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->      
       <nav id="navbar" class="navbar">
@@ -73,7 +73,7 @@
               </ul>
           </li>
           <li><a href="index.php?module=deconstruction">Deconstruction & Dismantling</a></li>  
-          <li class="dropdown project-menu"><a href="index.php?module=deconstruction"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li class="dropdown project-menu"><a href="javascript:void(0)"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
                 <li><a href="index.php?module=projects&submodule=1">SASASHIP PTE LTD</a></li>
                 <li><a href="index.php?module=projects&submodule=2">United Plantations BHD</a></li>
