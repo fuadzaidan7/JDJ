@@ -6,7 +6,7 @@ if($_GET['submodule'] == "vision")
 ?>
 
   <section id="vision" class="about">
-      <div class="container">
+      <div class="container px-3 px-md-0 mt-md-4">
 
       <div class="section-title">         
         <p>Vision and mission </p>
@@ -36,7 +36,7 @@ if($_GET['submodule'] == "vision")
         <div class="col-lg-12 pt-4">
         <h4>MISSION</h4>
           <p class="text-justify">
-          OUR MISSION IS TO BE ONE OF THE MOST DEDICATED, RELIABLE, PROSPEROUS, EFFECTIVE AND SUCCESSFUL COMPANY IN THE SCRAP METAL TRADING ANDv RECYCLE CONTRACTOR AND SUB-CONTRACTORS TO CONDUCT THE JOBS THAT ARE PROVIDING SERVICE SUCH AS DISMANTLING SERVICE, SCRAP CLEAR-UP SERVICE, CO-COPERATING	TO MANAGE THE SCRAP OUTCOMES IN FACTORIES AND MANY MORE.
+          OUR MISSION IS TO BE ONE OF THE MOST DEDICATED, RELIABLE, PROSPEROUS, EFFECTIVE AND SUCCESSFUL COMPANY IN THE SCRAP METAL TRADING AND RECYCLE CONTRACTOR AND SUB-CONTRACTORS TO CONDUCT THE JOBS THAT ARE PROVIDING SERVICE SUCH AS DISMANTLING SERVICE, SCRAP CLEAR-UP SERVICE, CO-COPERATING	TO MANAGE THE SCRAP OUTCOMES IN FACTORIES AND MANY MORE.
           </p>
           
          
@@ -53,7 +53,7 @@ elseif($_GET['submodule'] == "corporate")
 {
 ?>
   <section id="corporate" class="about">
-        <div class="container">
+        <div class="container px-3 px-md-0 mt-md-4">
 
         <div class="section-title">         
           <p>Corporate Details</p>
@@ -77,7 +77,7 @@ elseif($_GET['submodule'] == "corporate")
                     <p class="text-end">Business Address</p>
                 </td>
                 <td>
-                    <p><span class="yellow">No 21B Batu 13, Kampung Simpang Balak,<br> Jalan Cheras, 43000 Kajang, Selangor.</span></p>
+                    <p><span class="yellow">No 21B Batu 13, Kampung Simpang Balak,<span class="d-none d-md-inline"><br></span> Jalan Cheras, 43000 Kajang, Selangor.</span></p>
                 </td>
               </tr>
               <tr>
@@ -133,7 +133,7 @@ elseif($_GET['submodule'] == "md_message")
 {
 ?>
   <section id="md_message" >
-      <div class="container">
+      <div class="container px-3 px-md-0 mt-md-4">
 
         <div class="section-title">         
           <p>Sculpture of Managing Director</p>
@@ -167,7 +167,7 @@ elseif($_GET['submodule'] == "orgchart")
 {
 ?>
   <section id="orgchart" >
-      <div class="container">
+      <div class="container px-3 px-md-0 mt-md-4">
 
         <div class="section-title">         
           <p>Organizational Chart</p>
@@ -180,7 +180,7 @@ elseif($_GET['submodule'] == "orgchart")
           </div>
           <div class="col-lg-6">
             <img src="assets/jdj-logo.png" class="chart-logo">
-            <div class="section-title text-center">         
+            <div class="section-title text-center mt-md-0 mt-3">         
               <p class="chart-company">JDJ TECHNOLOGY (M) SDN. BHD.<br><small class="chart-small">(1359495-U) </small></p>
               <p class="chart-company pt-3">JDJ METAL TRADING<br><small class="chart-small">(002687917-T)</small></p>
             </div>
@@ -194,7 +194,7 @@ elseif($_GET['submodule'] == "ssm")
 {
 ?>
   <section id="ssm" >
-      <div class="container">
+      <div class="container px-3 px-md-0 mt-md-4">
 
         <div class="section-title">         
           <p>SSM Certificate</p>
@@ -206,7 +206,7 @@ elseif($_GET['submodule'] == "ssm")
           <img src="assets/ssm1.png" class="ssm-logo">
           </div>
           <div class="col-lg-4">
-            <img src="assets/jdj-logo.png" class="ssm-logo">            
+            <img src="assets/jdj-logo.png" class="ssm-logo ssm-company-logo">            
           </div>
           <div class="col-lg-4">
           <img src="assets/ssm2.png" class="ssm-logo">

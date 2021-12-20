@@ -54,12 +54,12 @@
 
   <section id="summary">
 
-      <div class="container px-0 mt-4">
+      <div class="container px-3 px-md-0 mt-md-4">
         <!-- <hr class="gold-line"> -->
         <div class="row content">
         
-          <div class="col-lg-8 ">  
-            <div class="section-title pb-3">         
+          <div class="col-lg-8 col-12">  
+            <div class="section-title pb-1 pb-sm-3">         
               <p>Executive Summary</p>        
             </div>      
             <p class="text-justify">
@@ -79,8 +79,8 @@
               In an effort to grow organically, the company always strives to deliver its best services. Its mission is to consistently work towards optimum customer satisfaction The company believes that customers are its pillars of strength and a driving force behind the success of the company.
             </p>
           </div>
-          <div class="col-lg-4 pt-3">
-            <img  src="assets/img/test-image-vertical.jpg" class="summary-image">
+          <div class="col-lg-4 col-12 pt-3">
+            <img  src="assets/img/home.jpg" class="summary-image">
           </div>
 
         </div>

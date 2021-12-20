@@ -1,5 +1,5 @@
 <section id="material" >
-      <div class="container">
+      <div class="container px-3 px-md-0 mt-md-4">
 
       <div class="section-title">         
         <p>DECONSTRUCTION & DISMANTLING</p>
@@ -66,7 +66,7 @@
         
         </div>
         
-        <div class="col-lg-6 center">
+        <div class="col-lg-6 center mt-4 mt-sm-0">
         
         <img src="assets/deconstruction8.png" class="waste_process_3">
         

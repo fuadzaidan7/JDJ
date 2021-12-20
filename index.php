@@ -31,11 +31,11 @@
 
 <body>
   <div class="top-header">
-    <div class="row">
-      <div class="col-md-4">
+    <div class="row" style="max-width: 100%">
+      <div class="col-md-4 col-5">
         <h1 class="big-name text-end">JDJ</h1>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 col-7">
         <h1 class="mb-0">TECHNOLOGY (M) SDN. BHD. <small class="subtitle">(1359495-U)</small></h1>
         <h1 class="pt-0 second-name">METAL TRADING. <small class="subtitle">(002687917-T)</small></h1>
         <hr class="float-end name-underline">
@@ -113,25 +113,31 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-4 pl-4">
+          <div class="col-lg-4 col-md-4 pl-4 col-12">
 
-            <div class="float-end">
+            <div class="float-md-end">
               <div class="icon-bg-gold"><i class="bi bi-at"></i></div>
-              No. 21B, Batu 13, Kampung Simpang Balak, <br>Jalan Cheras, 43000 Kajang, <br>Selangor Darul Ehsan
+              <div class="footer-text">
+                No. 21B, Batu 13, Kampung Simpang Balak, <br>Jalan Cheras, 43000 Kajang, <br>Selangor Darul Ehsan
+              </div>
             </div>
             
           </div>
-          <div class="col-lg-5 col-md-5 ">
-            <div style="margin: auto; width: 60%;">
-              <div class="icon-bg-gold"><i class="bi bi-phone phone-icon"></i></div>
-              <p class="mb-0">+60 13-721 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 11-1290 1176</p>
-              <p class="mb-0">+60 18-973 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 10-268 1176</p>  
+          <div class="col-lg-5 col-md-5 col-12">
+            <div class="middle-info">
+              <div class="icon-bg-gold mt-0 mt-md-0"><i class="bi bi-phone phone-icon"></i></div>
+              <div class="footer-text mt-3 mt-md-0">
+                <p class="mb-0">+60 13-721 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 11-1290 1176</p>
+                <p class="mb-0">+60 18-973 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 10-268 1176</p>  
+              </div>              
             </div>
           </div>
-          <div class="col-lg-3 col-md-3">            
-            <div class="icon-bg-gold"><i class="bi bi-envelope mail-icon"></i></div>
-            <p class="mb-0">jdjtechnology20@gmail.com</p>
-            <p class="mb-0">thila716@gmail.com</p>
+          <div class="col-lg-3 col-md-3 col-12">            
+            <div class="icon-bg-gold mt-4 mt-md-0"><i class="bi bi-envelope mail-icon"></i></div>
+            <div class="footer-text mt-4 mt-md-0">
+              <p class="mb-0">jdjtechnology20@gmail.com</p>
+              <p class="mb-0">thila716@gmail.com</p>
+            </div>
           </div>
 
         </div>
