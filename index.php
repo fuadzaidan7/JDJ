@@ -31,11 +31,11 @@
 
 <body>
   <div class="top-header">
-    <div class="row" style="max-width: 100%">
+    <div class="row mx-0" style="max-width: 100%">
       <div class="col-md-4 col-5">
         <h1 class="big-name text-end">JDJ</h1>
       </div>
-      <div class="col-md-8 col-7">
+      <div class="col-md-8 col-7 px-0">
         <h1 class="mb-0">TECHNOLOGY (M) SDN. BHD. <small class="subtitle">(1359495-U)</small></h1>
         <h1 class="pt-0 second-name">METAL TRADING. <small class="subtitle">(002687917-T)</small></h1>
         <hr class="float-end name-underline">
@@ -63,25 +63,25 @@
                 <li><a href="index.php?module=about&submodule=ssm" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'ssm'? 'active':''; ?>">SSM Certificate</a></li>
               </ul>
           </li>
-          <li class="dropdown service-menu"><a href="javascript:void(0)"><span>Services</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li class="dropdown service-menu"><a href="javascript:void(0)"  class="<?php echo $_REQUEST['module'] == 'services'? 'active':''; ?>"><span>Services</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
-                <li><a href="index.php?module=services&submodule=list">List of Services</a></li>
-                <li><a href="index.php?module=services&submodule=material">Type of Collected Material</a></li>
-                <li><a href="index.php?module=services&submodule=safety">Safety</a></li>
-                <li><a href="index.php?module=services&submodule=safetyequipment">Safety Equipments</a></li>
-                <li><a href="index.php?module=services&submodule=equipment">List of Equipments</a></li>
+                <li><a href="index.php?module=services&submodule=list" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'list'? 'active':''; ?>">List of Services</a></li>
+                <li><a href="index.php?module=services&submodule=material" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'material'? 'active':''; ?>">Type of Collected Material</a></li>
+                <li><a href="index.php?module=services&submodule=safety" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'safety'? 'active':''; ?>">Safety</a></li>
+                <li><a href="index.php?module=services&submodule=safetyequipment" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'safetyequipment'? 'active':''; ?>">Safety Equipments</a></li>
+                <li><a href="index.php?module=services&submodule=equipment" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == 'equipment'? 'active':''; ?>">List of Equipments</a></li>
               </ul>
           </li>
-          <li><a href="index.php?module=deconstruction">Deconstruction & Dismantling</a></li>  
-          <li class="dropdown project-menu"><a href="javascript:void(0)"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
+          <li><a href="index.php?module=deconstruction" class="<?php echo $_REQUEST['module'] == 'deconstruction'? 'active':''; ?>">Deconstruction & Dismantling</a></li>  
+          <li class="dropdown project-menu"><a href="javascript:void(0)" class="<?php echo $_REQUEST['module'] == 'projects'? 'active':''; ?>"><span>Projects</span> <!-- <i class="bi bi-chevron-down"></i> --></a>
             <ul>
-                <li><a href="index.php?module=projects&submodule=1">SASASHIP PTE LTD</a></li>
-                <li><a href="index.php?module=projects&submodule=2">United Plantations BHD</a></li>
-                <li><a href="index.php?module=projects&submodule=3">Guocera Tiles (M) SDN. BHD.</a></li>
-                <li><a href="index.php?module=projects&submodule=4">Petrogas</a></li>
+                <li><a href="index.php?module=projects&submodule=1" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == '1'? 'active':''; ?>">SASASHIP PTE LTD</a></li>
+                <li><a href="index.php?module=projects&submodule=2" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == '2'? 'active':''; ?>">United Plantations BHD</a></li>
+                <li><a href="index.php?module=projects&submodule=3" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == '3'? 'active':''; ?>">Guocera Tiles (M) SDN. BHD.</a></li>
+                <li><a href="index.php?module=projects&submodule=4" class="<?php echo isset($_REQUEST['submodule']) && $_REQUEST['submodule'] == '4'? 'active':''; ?>">Petrogas</a></li>
               </ul>
           </li>
-          <li><a href="index.php?module=contact">Contact Us</a></li>          
+          <li><a href="index.php?module=contact" class="<?php echo $_REQUEST['module'] == 'contact'? 'active':''; ?>">Contact Us</a></li>          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -113,9 +113,9 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-12 pl-4 col-12">
+          <div class="col-xl-4 pl-4 col-12">
 
-            <div class="float-lg-end">
+            <div class="float-xl-end">
               <div class="icon-bg-gold"><i class="bi bi-at"></i></div>
               <div class="footer-text">
                 No. 21B, Batu 13, Kampung Simpang Balak, <br>Jalan Cheras, 43000 Kajang, <br>Selangor Darul Ehsan
@@ -123,18 +123,18 @@
             </div>
             
           </div>
-          <div class="col-lg-5 col-md-12 col-12">
+          <div class="col-xl-5 col-12">
             <div class="middle-info">
-              <div class="icon-bg-gold mt-0 mt-lg-0"><i class="bi bi-phone phone-icon"></i></div>
-              <div class="footer-text mt-3 mt-lg-0">
+              <div class="icon-bg-gold mt-0 mt-xl-0"><i class="bi bi-phone phone-icon"></i></div>
+              <div class="footer-text mt-3 mt-xl-0">
                 <p class="mb-0">+60 13-721 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 11-1290 1176</p>
                 <p class="mb-0">+60 18-973 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 10-268 1176</p>  
               </div>              
             </div>
           </div>
-          <div class="col-lg-3 col-md-12 col-12">            
-            <div class="icon-bg-gold mt-4 mt-lg-0"><i class="bi bi-envelope mail-icon"></i></div>
-            <div class="footer-text mt-4 mt-lg-0">
+          <div class="col-xl-3 col-12">            
+            <div class="icon-bg-gold mt-4 mt-xl-0"><i class="bi bi-envelope mail-icon"></i></div>
+            <div class="footer-text mt-4 mt-xl-0">
               <p class="mb-0">jdjtechnology20@gmail.com</p>
               <p class="mb-0">thila716@gmail.com</p>
             </div>

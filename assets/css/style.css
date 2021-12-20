@@ -2285,6 +2285,15 @@ table td.td-item
   .company-logo {
       height: 290px;
       margin-top: -50%;
+      margin-left: -29%;
+  }
+}
+
+@media (min-width: 2500px) {
+  
+  .company-logo {
+      height: 290px;
+      margin-top: -50%;
       margin-left: -55%;
   }
 }
@@ -2303,7 +2312,7 @@ footer .middle-info
 /*start 500*/
 @media (max-width: 500px) {
   .top-header {
-    height: 100px;
+    height: 95px;
   }
 
   #header {
@@ -2334,14 +2343,14 @@ footer .middle-info
   }
 
   .company-logo {
-      height: 100px;
-    margin-top: -108%;
-    margin-left: 0px;
+    height: 85px;
+    margin-top: -128%;
+    margin-left: 13px;
   }
 
   h1.big-name {
     font-size: 58px !important;
-    margin-left: 100px;
+    margin-left: 0;
     margin-top: -17px;
     padding-right: 1px;
     /*text-align: left !important;*/
@@ -2469,19 +2478,22 @@ footer .middle-info
 
 @media (min-width: 501px) and (max-width: 1000px) {
    
+  .top-header {
+      height: 132px;
+  }
 
   .navbar {
     margin-left: 0;
   }
 
   .top-header h1 {
-    padding-top: 45px;
+    padding-top: 35px;
   }
 
   .company-logo {
-    height: 150px;
-    margin-top: -93%;
-    margin-left: -2%;
+    height: 120px;
+    margin-top: -141%;
+    margin-left: 22%;
   }
 
 
@@ -2491,7 +2503,7 @@ footer .middle-info
 
   h1.big-name {
     font-size: 76px !important;
-    margin-left: 100px;
+    margin-left: 55px;
     margin-top: -12px;
     padding-right: 1px;
     /*text-align: left !important;*/
@@ -2519,7 +2531,7 @@ footer .middle-info
       margin-left: 0;
       width: 100%;
   }
-  
+
   .navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul, .navbar .dropdown.project-menu ul {
     margin-top: 0 !important;
     width: 96%;
@@ -2551,5 +2563,38 @@ footer .middle-info
 }
 
 @media (min-width: 1001px) and (max-width: 1200px) {
+  .icon-bg-gold{
+    /*position: unset;
+    display: inline-block;*/
+    margin-left: 6%;
+  }
 
+  .navbar .dropdown.about-menu ul {
+    margin-left: 108%;
+    }
+
+  .navbar .dropdown.service-menu ul {
+    margin-left: 135%;
+    }
+
+  .navbar
+  {
+    margin-left: 0%;
+  }
+
+  .footer-text{
+    margin-left: 15%;
+  }
+
+  .company-logo {
+    height: 130px;
+    margin-top: -137%;
+    margin-left: 40%;
+  }
+
+  footer .middle-info
+  {
+    margin: auto; 
+    width: 100%;
+  }
 }
