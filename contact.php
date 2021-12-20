@@ -2,7 +2,7 @@
 
 ?>
   <section id="orgchart" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
         <div class="section-title">         
           <p>Contact Us</p>
@@ -13,10 +13,10 @@
           <div class="col-lg-6 ">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="col-md-6 form-group">
+                <div class="col-lg-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <div class="col-lg-6 form-group mt-3 mt-lg-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
@@ -38,7 +38,7 @@
               
             </div>
             <!-- <div class="row">
-              <div class="col-lg-12 col-md-4 ">
+              <div class="col-lg-12 col-lg-4 ">
 
                 <div class="">
                   <div class="icon-bg-gold"><i class="bi bi-at"></i></div>
@@ -46,14 +46,14 @@
                 </div>
                 
               </div>
-              <div class="col-lg-12 col-md-5 ">
+              <div class="col-lg-12 col-lg-5 ">
                 <div style="">
                   <div class="icon-bg-gold"><i class="bi bi-phone phone-icon"></i></div>
                   <p class="mb-0">+60 13-721 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 11-1290 1176</p>
                   <p class="mb-0">+60 18-973 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 10-268 1176</p>  
                 </div>
               </div>
-              <div class="col-lg-12 col-md-3">            
+              <div class="col-lg-12 col-lg-3">            
                 <div class="icon-bg-gold"><i class="bi bi-envelope mail-icon"></i></div>
                 <p class="mb-0">jdjtechnology20@gmail.com</p>
                 <p class="mb-0">thila716@gmail.com</p>

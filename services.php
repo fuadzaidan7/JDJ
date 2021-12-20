@@ -4,7 +4,7 @@ if($_GET['submodule'] == "list")
 ?>
 
   <section id="list" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
       <div class="section-title">         
         <p>List of Services</p>
@@ -87,7 +87,7 @@ elseif($_GET['submodule'] == "material")
 ?>
 
   <section id="material" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
       <div class="section-title">         
         <p>Type of collected Material </p>
@@ -106,7 +106,7 @@ elseif($_GET['submodule'] == "material")
         <img src="assets/ferrous_materials.png" class="waste_process">
         </div>
         <div class="col-lg-6">
-          <div class="text-center  mb-4 mb-md-4 mb-0 mt-4 mt-md-0">
+          <div class="text-center  mb-4 mb-lg-4 mb-0 mt-4 mt-lg-0">
             <span class="yellow">NON-FERROUS MATERIALS</span> 
           </div>
         
@@ -129,7 +129,7 @@ elseif($_GET['submodule'] == "safety")
 ?>
 
   <section id="safety" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
       <div class="section-title">         
         <p>Safety is our main priority </p>
@@ -141,13 +141,13 @@ elseif($_GET['submodule'] == "safety")
       <div class="row content">
       <p class="mb-4">Prior to any project implementation, we make sure our team is fully trained and certified for Safety and Health.</p>
       <div class="col-lg-4 ">
-        <img src="assets/safety1.png" class="waste_process mb-md-0 mb-4">
+        <img src="assets/safety1.png" class="waste_process mb-lg-0 mb-4">
         </div>
         <div class="col-lg-4 ">
-        <img src="assets/safety2.png" class="waste_process mb-md-0 mb-4">
+        <img src="assets/safety2.png" class="waste_process mb-lg-0 mb-4">
         </div>
         <div class="col-lg-4 ">
-        <img src="assets/safety3.png" class="waste_process mb-md-0 mb-4">
+        <img src="assets/safety3.png" class="waste_process mb-lg-0 mb-4">
         </div>
 
         </div>
@@ -162,7 +162,7 @@ elseif($_GET['submodule'] == "safetyequipment")
 ?>
 
   <section id="safetyequipment" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
       <div class="section-title mb-4">         
         <p>Safety Equipments </p>
@@ -234,7 +234,7 @@ elseif($_GET['submodule'] == "equipment")
 ?>
 
   <section id="material" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
       <div class="section-title mb-4">         
         <p>Company Equipments </p>

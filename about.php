@@ -6,7 +6,7 @@ if($_GET['submodule'] == "vision")
 ?>
 
   <section id="vision" class="about">
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
       <div class="section-title">         
         <p>Vision and mission </p>
@@ -53,7 +53,7 @@ elseif($_GET['submodule'] == "corporate")
 {
 ?>
   <section id="corporate" class="about">
-        <div class="container px-3 px-md-0 mt-md-4">
+        <div class="container px-3 px-lg-0 mt-lg-4">
 
         <div class="section-title">         
           <p>Corporate Details</p>
@@ -77,7 +77,7 @@ elseif($_GET['submodule'] == "corporate")
                     <p class="text-end">Business Address</p>
                 </td>
                 <td>
-                    <p><span class="yellow">No 21B Batu 13, Kampung Simpang Balak,<span class="d-none d-md-inline"><br></span> Jalan Cheras, 43000 Kajang, Selangor.</span></p>
+                    <p><span class="yellow">No 21B Batu 13, Kampung Simpang Balak,<span class="d-none d-lg-inline"><br></span> Jalan Cheras, 43000 Kajang, Selangor.</span></p>
                 </td>
               </tr>
               <tr>
@@ -133,7 +133,7 @@ elseif($_GET['submodule'] == "md_message")
 {
 ?>
   <section id="md_message" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
         <div class="section-title">         
           <p>Sculpture of Managing Director</p>
@@ -167,7 +167,7 @@ elseif($_GET['submodule'] == "orgchart")
 {
 ?>
   <section id="orgchart" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
         <div class="section-title">         
           <p>Organizational Chart</p>
@@ -180,7 +180,7 @@ elseif($_GET['submodule'] == "orgchart")
           </div>
           <div class="col-lg-6">
             <img src="assets/jdj-logo.png" class="chart-logo">
-            <div class="section-title text-center mt-md-0 mt-3">         
+            <div class="section-title text-center mt-lg-0 mt-3">         
               <p class="chart-company">JDJ TECHNOLOGY (M) SDN. BHD.<br><small class="chart-small">(1359495-U) </small></p>
               <p class="chart-company pt-3">JDJ METAL TRADING<br><small class="chart-small">(002687917-T)</small></p>
             </div>
@@ -194,7 +194,7 @@ elseif($_GET['submodule'] == "ssm")
 {
 ?>
   <section id="ssm" >
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
 
         <div class="section-title">         
           <p>SSM Certificate</p>

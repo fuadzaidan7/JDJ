@@ -2261,27 +2261,6 @@ table td.td-item
   display: block;
 }
 
-@media (min-width: 1367px) and (max-width: 1465px) {
-
-  small.subtitle {
-      font-size: 26px !important;
-  }
-
-  .top-header h1 {
-    font-size: 56px;
-  }
-
-  h1.big-name {
-    font-size: 160px;
-  }
-
-  .company-logo {
-    height: 280px;
-    margin-top: -55%;
-    margin-left: -14%;;
-  }
-}
-
 .text-double-dot{
   position: absolute;
     margin-left: -10px;
@@ -2321,7 +2300,7 @@ footer .middle-info
     color: #f1d792;
 }
 
-/*start 2000*/
+/*start 500*/
 @media (max-width: 500px) {
   .top-header {
     height: 100px;
@@ -2467,3 +2446,110 @@ footer .middle-info
 }
 
 /*end */
+@media (min-width: 1367px) and (max-width: 1465px) {
+
+  small.subtitle {
+      font-size: 26px !important;
+  }
+
+  .top-header h1 {
+    font-size: 56px;
+  }
+
+  h1.big-name {
+    font-size: 160px;
+  }
+
+  .company-logo {
+    height: 280px;
+    margin-top: -55%;
+    margin-left: -14%;;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+   
+
+  .navbar {
+    margin-left: 0;
+  }
+
+  .top-header h1 {
+    padding-top: 45px;
+  }
+
+  .company-logo {
+    height: 150px;
+    margin-top: -93%;
+    margin-left: -2%;
+  }
+
+
+  .top-header h1 {
+    font-size: 28px;
+  }
+
+  h1.big-name {
+    font-size: 76px !important;
+    margin-left: 100px;
+    margin-top: -12px;
+    padding-right: 1px;
+    /*text-align: left !important;*/
+  }
+
+  #header {
+    padding: 5px 0 !important;
+  }
+
+  .navbar-mobile ul{
+    /*height: 90%;*/
+    width: 96%;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    transform: none;
+    padding: 0;
+
+    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28) !important;
+    background: linear-gradient(center, #8f6B29, #FDE08D, #DF9F28);
+  }  
+
+  .navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul {
+      margin-left: 0;
+      width: 100%;
+  }
+  
+  .navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul, .navbar .dropdown.project-menu ul {
+    margin-top: 0 !important;
+    width: 96%;
+    margin-left: 4%;
+    background: #ca6f6f00 !important;
+    border: 1px solid #ffe394;
+
+  }
+
+  .navbar .dropdown:hover > ul {
+    top: 0;
+  }
+
+  .icon-bg-gold{
+    /*position: unset;
+    display: inline-block;*/
+    margin-left: 6%;
+  }
+
+  .footer-text{
+    margin-left: 15%;
+  }
+
+  footer .middle-info
+  {
+    margin: auto; 
+    width: 100%;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+
+}

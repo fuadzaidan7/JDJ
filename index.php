@@ -113,9 +113,9 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-4 pl-4 col-12">
+          <div class="col-lg-4 col-md-12 pl-4 col-12">
 
-            <div class="float-md-end">
+            <div class="float-lg-end">
               <div class="icon-bg-gold"><i class="bi bi-at"></i></div>
               <div class="footer-text">
                 No. 21B, Batu 13, Kampung Simpang Balak, <br>Jalan Cheras, 43000 Kajang, <br>Selangor Darul Ehsan
@@ -123,18 +123,18 @@
             </div>
             
           </div>
-          <div class="col-lg-5 col-md-5 col-12">
+          <div class="col-lg-5 col-md-12 col-12">
             <div class="middle-info">
-              <div class="icon-bg-gold mt-0 mt-md-0"><i class="bi bi-phone phone-icon"></i></div>
-              <div class="footer-text mt-3 mt-md-0">
+              <div class="icon-bg-gold mt-0 mt-lg-0"><i class="bi bi-phone phone-icon"></i></div>
+              <div class="footer-text mt-3 mt-lg-0">
                 <p class="mb-0">+60 13-721 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 11-1290 1176</p>
                 <p class="mb-0">+60 18-973 4393&nbsp;&nbsp;&nbsp;&nbsp;+60 10-268 1176</p>  
               </div>              
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-12">            
-            <div class="icon-bg-gold mt-4 mt-md-0"><i class="bi bi-envelope mail-icon"></i></div>
-            <div class="footer-text mt-4 mt-md-0">
+          <div class="col-lg-3 col-md-12 col-12">            
+            <div class="icon-bg-gold mt-4 mt-lg-0"><i class="bi bi-envelope mail-icon"></i></div>
+            <div class="footer-text mt-4 mt-lg-0">
               <p class="mb-0">jdjtechnology20@gmail.com</p>
               <p class="mb-0">thila716@gmail.com</p>
             </div>

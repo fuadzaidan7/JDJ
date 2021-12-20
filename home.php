@@ -54,7 +54,7 @@
 
   <section id="summary">
 
-      <div class="container px-3 px-md-0 mt-md-4">
+      <div class="container px-3 px-lg-0 mt-lg-4">
         <!-- <hr class="gold-line"> -->
         <div class="row content">
         
