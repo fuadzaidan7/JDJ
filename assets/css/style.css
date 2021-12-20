@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: #556270;*/
   white-space: nowrap;
-  transition: 0.3s;
+  /*transition: 0.3s;*/
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  /*transition: 0.3s;*/
 }
 .navbar .dropdown ul li {
   min-width: 200px;
@@ -2110,6 +2110,13 @@ footer{
 
 /*start 1366*/
 @media (max-width: 1366px) {
+
+  .company-logo {
+    height: 215px;
+    margin-top: -50%;
+    margin-left: -23%;
+  }
+
   .top-header h1{
     font-size: 40px;
   }
@@ -2146,12 +2153,12 @@ footer{
 
   .navbar .dropdown.service-menu ul {
     
-    margin-left: 112%;
+    margin-left: 134%;
   }
 
   .navbar .dropdown.project-menu ul {
     
-    margin-left: 105%;
+    margin-left: 123%;
   }
 
   .navbar .dropdown:hover > ul {
@@ -2254,7 +2261,7 @@ table td.td-item
   display: block;
 }
 
-@media (max-width: 1465px) {
+@media (min-width: 1367px) and (max-width: 1465px) {
 
   small.subtitle {
       font-size: 26px !important;
@@ -2269,9 +2276,9 @@ table td.td-item
   }
 
   .company-logo {
-      height: 270px;
-      margin-top: -50%;
-      margin-left: -23%;
+    height: 280px;
+    margin-top: -55%;
+    margin-left: -14%;;
   }
 }
 
@@ -2284,3 +2291,179 @@ table td.td-item
   position: absolute;
     margin-left: -15px;
 }
+
+.btn-send{
+    color: #1a3e75;
+    background-color: #ffd571;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border-color: #ffd571;
+}
+
+/*start 2000*/
+@media (min-width: 1920px) {
+  
+  .company-logo {
+      height: 290px;
+      margin-top: -50%;
+      margin-left: -55%;
+  }
+}
+
+/*end */
+
+footer .middle-info
+{
+  margin: auto; width: 60%;
+}
+
+.mobile-nav-toggle {
+    color: #f1d792;
+}
+
+/*start 2000*/
+@media (max-width: 500px) {
+  .top-header {
+    height: 100px;
+  }
+
+  #header {
+    padding: 2px 0 !important;
+  }
+
+  .navbar-mobile ul{
+    /*height: 90%;*/
+    width: 91%;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    transform: none;
+    padding: 0;
+
+    background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28) !important;
+    background: linear-gradient(center, #8f6B29, #FDE08D, #DF9F28);
+  }  
+
+  .navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul {
+      margin-left: 0;
+      width: 100%;
+  }
+
+  .navbar .dropdown:hover > ul {
+    top: 0;
+  }
+
+  .company-logo {
+      height: 100px;
+    margin-top: -108%;
+    margin-left: 0px;
+  }
+
+  h1.big-name {
+    font-size: 58px !important;
+    margin-left: 100px;
+    margin-top: -17px;
+    padding-right: 1px;
+    /*text-align: left !important;*/
+  }
+
+  .top-header h1 {
+      font-size: 17px;
+    line-height: unset;
+  }
+
+  small.subtitle {
+      font-size: 13px !important;
+      display: none;
+  }
+
+  .navbar {
+      margin-left: 0px;
+  }
+
+  body {    
+      font-size: 12px;
+  }
+
+  footer .middle-info
+  {
+    margin: auto; 
+    width: 100%;
+  }
+
+  .footer-top {
+      font-size: 12px;
+      padding: 20px 0px !important;
+  }
+
+  .icon-bg-gold{
+    /*position: unset;
+    display: inline-block;*/
+    margin-left: 0;
+  }
+
+  .footer-text{
+    margin-left: 15%;
+  }
+
+  .navbar .dropdown.about-menu ul, .navbar .dropdown.service-menu ul, .navbar .dropdown.project-menu ul {
+    margin-top: 0 !important;
+    width: 96%;
+    margin-left: 4%;
+    background: #ca6f6f00 !important;
+    border: 1px solid #ffe394;
+
+  }
+
+  .navbar a, .navbar a:focus, .navbar .dropdown ul a, .navbar .dropdown ul a:focus {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .section-title p {    
+    font-size: 17px;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .section-title {
+    padding-bottom: 20px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+  table td.td-item {
+    width: 35% !important;
+  }
+  
+  .chart-logo {
+    width: 40%;
+  }
+
+  .ssm-logo.ssm-company-logo{
+    width: 50%;
+  }
+
+  .waste_process {
+    width: 75%;
+  }
+
+  .equipment_img {
+    width: 70%;
+  }
+
+  .waste_process_3, .waste_process_4 {
+    height: auto;
+    width: 100%;
+  }
+  .form-control {  
+    font-size: 12px;
+  }
+}
+
+/*end */
